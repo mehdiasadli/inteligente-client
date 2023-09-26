@@ -1,11 +1,12 @@
 import axios from 'axios';
-import { base } from '..';
+import { base, requestHeaders } from '..';
 import { User } from '../../lib/types';
 import { LoginType } from '../../pages/LoginPage';
 import { RegisterType } from '../../pages/RegisterPage';
 
 const api = axios.create({
   baseURL: base + '/auth',
+  headers: requestHeaders,
 });
 
 export default {

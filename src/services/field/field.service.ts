@@ -1,10 +1,11 @@
 import axios from 'axios';
-import { addInterceptor, base } from '..';
+import { addInterceptor, base, requestHeaders } from '..';
 import { FieldType } from '../../components/CreateField';
 import { Field, PopulatedField } from '../../lib/types';
 
 const api = axios.create({
   baseURL: base + '/fields',
+  headers: requestHeaders
 });
 
 api.interceptors.request.use(addInterceptor);

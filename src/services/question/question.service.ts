@@ -1,9 +1,10 @@
 import axios from 'axios';
-import { addInterceptor, base } from '..';
+import { addInterceptor, base, requestHeaders } from '..';
 import { PopulatedQuestion } from './../../lib/types';
 
 const api = axios.create({
   baseURL: base + '/questions',
+  headers: requestHeaders,
 });
 
 api.interceptors.request.use(addInterceptor);

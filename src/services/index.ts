@@ -1,4 +1,4 @@
-import { InternalAxiosRequestConfig } from "axios";
+import { InternalAxiosRequestConfig } from 'axios';
 
 export const base = process.env.REACT_APP_SERVER_URI;
 
@@ -8,4 +8,9 @@ export const addInterceptor = (config: InternalAxiosRequestConfig) => {
 
   config.headers.Authorization = 'Bearer ' + token;
   return config;
+};
+
+export const requestHeaders = {
+  'Content-Type': 'application/json',
+  Accept: '*/*',
 };

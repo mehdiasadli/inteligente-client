@@ -1,9 +1,10 @@
 import axios from 'axios';
-import { addInterceptor, base } from '..';
+import { addInterceptor, base, requestHeaders } from '..';
 import { Quiz } from '../../lib/types';
 
 const api = axios.create({
   baseURL: base + '/quiz',
+  headers: requestHeaders,
 });
 
 api.interceptors.request.use(addInterceptor);

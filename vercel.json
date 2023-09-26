@@ -3,9 +3,6 @@
     {
       "src": "package.json",
       "use": "@vercel/node",
-      "env": {
-        "NODE_ENV": "production"
-      },
       "command": "npm install && npm run build"
     }
   ]

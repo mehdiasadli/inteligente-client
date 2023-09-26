@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="none" version="1.1" viewBox="0 0 1440 780" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g fill="none" mask="url(#h)">
+<rect width="1440" height="780" fill="url(#i)"/>
+<use xlink:href="#g"/>
+<use y="720" xlink:href="#g"/>
+<use x="720" xlink:href="#g"/>
+<use x="720" y="720" xlink:href="#g"/>
+</g>
+<defs>
+<mask id="h">
+<rect width="1440" height="780" fill="#fff"/>
+</mask>
+<linearGradient id="i" x1="11.46%" x2="88.54%" y1="-21.15%" y2="121.15%" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0e2a47" offset="0"/>
+<stop stop-color="rgba(15, 29, 47, 1)" offset="1"/>
+</linearGradient>
+<path id="d" d="m-1 0a1 1 0 1 0 2 0 1 1 0 1 0-2 0z"/>
+<path id="e" d="m-3 0a3 3 0 1 0 6 0 3 3 0 1 0-6 0z"/>
+<path id="a" d="m-5 0a5 5 0 1 0 10 0 5 5 0 1 0-10 0z"/>
+<path id="c" d="m2-2-4 4z"/>
+<path id="b" d="m6-6-12 12z"/>
+<path id="f" d="m30-30-60 60z"/>
+</defs>
+<symbol id="g">
+<use x="30" y="30" stroke="#1c538e" xlink:href="#d"/>
+<use x="30" y="90" stroke="rgba(25, 113, 194, 1)" xlink:href="#d"/>
+<use x="30" y="150" stroke="#1c538e" xlink:href="#c"/>
+<use x="30" y="210" stroke="rgba(25, 113, 194, 1)" xlink:href="#b"/>
+<use x="30" y="270" stroke="rgba(25, 113, 194, 1)" xlink:href="#b"/>
+<use x="30" y="330" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="30" y="390" stroke="#1c538e" xlink:href="#b"/>
+<use x="30" y="450" stroke="rgba(25, 113, 194, 1)" xlink:href="#b"/>
+<use x="30" y="510" stroke="#1c538e" stroke-width="3" xlink:href="#f"/>
+<use x="30" y="570" stroke="rgba(25, 113, 194, 1)" xlink:href="#b"/>
+<use x="30" y="630" stroke="#1c538e" stroke-width="3" xlink:href="#f"/>
+<use x="30" y="690" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="90" y="30" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="90" y="90" stroke="#1c538e" stroke-width="3" xlink:href="#f"/>
+<use x="90" y="150" stroke="rgba(25, 113, 194, 1)" xlink:href="#d"/>
+<use x="90" y="210" stroke="rgba(25, 113, 194, 1)" xlink:href="#e"/>
+<use x="90" y="270" stroke="#1c538e" xlink:href="#c"/>
+<use x="90" y="330" stroke="#1c538e" xlink:href="#a"/>
+<use x="90" y="390" stroke="#1c538e" xlink:href="#b"/>
+<use x="90" y="450" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="90" y="510" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="90" y="570" stroke="rgba(25, 113, 194, 1)" stroke-width="3" xlink:href="#f"/>
+<use x="90" y="630" stroke="rgba(64, 192, 87, 1)" xlink:href="#c"/>
+<use x="90" y="690" stroke="#1c538e" xlink:href="#a"/>
+<use x="150" y="30" stroke="rgba(25, 113, 194, 1)" xlink:href="#b"/>
+<use x="150" y="90" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="150" y="150" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="150" y="210" stroke="rgba(25, 113, 194, 1)" xlink:href="#e"/>
+<use x="150" y="270" stroke="#1c538e" xlink:href="#b"/>
+<use x="150" y="330" stroke="rgba(64, 192, 87, 1)" xlink:href="#d"/>
+<use x="150" y="390" stroke="#1c538e" xlink:href="#d"/>
+<use x="150" y="450" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="150" y="510" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="150" y="570" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="150" y="630" stroke="#1c538e" xlink:href="#c"/>
+<use x="150" y="690" stroke="rgba(25, 113, 194, 1)" xlink:href="#b"/>
+<use x="210" y="30" stroke="#1c538e" xlink:href="#a"/>
+<use x="210" y="90" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="210" y="150" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="210" y="210" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="210" y="270" stroke="#1c538e" xlink:href="#c"/>
+<use x="210" y="330" stroke="rgba(64, 192, 87, 1)" xlink:href="#d"/>
+<use x="210" y="390" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="210" y="450" stroke="#1c538e" xlink:href="#a"/>
+<use x="210" y="510" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="210" y="570" stroke="rgba(64, 192, 87, 1)" xlink:href="#c"/>
+<use x="210" y="630" stroke="rgba(64, 192, 87, 1)" stroke-width="3" xlink:href="#f"/>
+<use x="210" y="690" stroke="rgba(25, 113, 194, 1)" xlink:href="#b"/>
+<use x="270" y="30" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="270" y="90" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="270" y="150" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="270" y="210" stroke="rgba(25, 113, 194, 1)" xlink:href="#b"/>
+<use x="270" y="270" stroke="#1c538e" xlink:href="#d"/>
+<use x="270" y="330" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="270" y="390" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="270" y="450" stroke="rgba(25, 113, 194, 1)" xlink:href="#c"/>
+<use x="270" y="510" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="270" y="570" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="270" y="630" stroke="#1c538e" xlink:href="#c"/>
+<use x="270" y="690" stroke="rgba(25, 113, 194, 1)" xlink:href="#e"/>
+<use x="330" y="30" stroke="rgba(25, 113, 194, 1)" xlink:href="#b"/>
+<use x="330" y="90" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="330" y="150" stroke="rgba(64, 192, 87, 1)" xlink:href="#c"/>
+<use x="330" y="210" stroke="rgba(64, 192, 87, 1)" xlink:href="#e"/>
+<use x="330" y="270" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="330" y="330" stroke="#1c538e" xlink:href="#d"/>
+<use x="330" y="390" stroke="#1c538e" xlink:href="#a"/>
+<use x="330" y="450" stroke="#1c538e" xlink:href="#b"/>
+<use x="330" y="510" stroke="rgba(25, 113, 194, 1)" xlink:href="#d"/>
+<use x="330" y="570" stroke="#1c538e" xlink:href="#e"/>
+<use x="330" y="630" stroke="#1c538e" xlink:href="#b"/>
+<use x="330" y="690" stroke="#1c538e" xlink:href="#b"/>
+<use x="390" y="30" stroke="#1c538e" xlink:href="#a"/>
+<use x="390" y="90" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="390" y="150" stroke="#1c538e" xlink:href="#d"/>
+<use x="390" y="210" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="390" y="270" stroke="#1c538e" xlink:href="#b"/>
+<use x="390" y="330" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="390" y="390" stroke="#1c538e" xlink:href="#b"/>
+<use x="390" y="450" stroke="#1c538e" xlink:href="#b"/>
+<use x="390" y="510" stroke="rgba(64, 192, 87, 1)" xlink:href="#c"/>
+<use x="390" y="570" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="390" y="630" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="390" y="690" stroke="rgba(25, 113, 194, 1)" xlink:href="#b"/>
+<use x="450" y="30" stroke="#1c538e" xlink:href="#b"/>
+<use x="450" y="90" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="450" y="150" stroke="#1c538e" xlink:href="#c"/>
+<use x="450" y="210" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="450" y="270" stroke="rgba(25, 113, 194, 1)" xlink:href="#e"/>
+<use x="450" y="330" stroke="#1c538e" xlink:href="#a"/>
+<use x="450" y="390" stroke="rgba(64, 192, 87, 1)" stroke-width="3" xlink:href="#f"/>
+<use x="450" y="450" stroke="#1c538e" xlink:href="#d"/>
+<use x="450" y="510" stroke="rgba(64, 192, 87, 1)" xlink:href="#e"/>
+<use x="450" y="570" stroke="rgba(25, 113, 194, 1)" xlink:href="#c"/>
+<use x="450" y="630" stroke="rgba(25, 113, 194, 1)" xlink:href="#c"/>
+<use x="450" y="690" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="510" y="30" stroke="#1c538e" xlink:href="#a"/>
+<use x="510" y="90" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="510" y="150" stroke="rgba(25, 113, 194, 1)" xlink:href="#b"/>
+<use x="510" y="210" stroke="rgba(64, 192, 87, 1)" stroke-width="3" xlink:href="#f"/>
+<use x="510" y="270" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="510" y="330" stroke="rgba(64, 192, 87, 1)" xlink:href="#c"/>
+<use x="510" y="390" stroke="#1c538e" xlink:href="#a"/>
+<use x="510" y="450" stroke="rgba(64, 192, 87, 1)" xlink:href="#e"/>
+<use x="510" y="510" stroke="rgba(25, 113, 194, 1)" xlink:href="#d"/>
+<use x="510" y="570" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="510" y="630" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="510" y="690" stroke="#1c538e" xlink:href="#c"/>
+<use x="570" y="30" stroke="#1c538e" xlink:href="#b"/>
+<use x="570" y="90" stroke="#1c538e" xlink:href="#e"/>
+<use x="570" y="150" stroke="#1c538e" xlink:href="#e"/>
+<use x="570" y="210" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="570" y="270" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="570" y="330" stroke="rgba(25, 113, 194, 1)" xlink:href="#e"/>
+<use x="570" y="390" stroke="rgba(25, 113, 194, 1)" xlink:href="#d"/>
+<use x="570" y="450" stroke="rgba(25, 113, 194, 1)" xlink:href="#e"/>
+<use x="570" y="510" stroke="rgba(64, 192, 87, 1)" stroke-width="3" xlink:href="#f"/>
+<use x="570" y="570" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="570" y="630" stroke="#1c538e" xlink:href="#d"/>
+<use x="570" y="690" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="630" y="30" stroke="#1c538e" xlink:href="#c"/>
+<use x="630" y="90" stroke="#1c538e" xlink:href="#c"/>
+<use x="630" y="150" stroke="#1c538e" stroke-width="3" xlink:href="#f"/>
+<use x="630" y="210" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="630" y="270" stroke="rgba(64, 192, 87, 1)" xlink:href="#c"/>
+<use x="630" y="330" stroke="rgba(64, 192, 87, 1)" stroke-width="3" xlink:href="#f"/>
+<use x="630" y="390" stroke="#1c538e" xlink:href="#a"/>
+<use x="630" y="450" stroke="#1c538e" xlink:href="#d"/>
+<use x="630" y="510" stroke="rgba(64, 192, 87, 1)" xlink:href="#e"/>
+<use x="630" y="570" stroke="#1c538e" xlink:href="#b"/>
+<use x="630" y="630" stroke="#1c538e" xlink:href="#a"/>
+<use x="630" y="690" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="690" y="30" stroke="#1c538e" xlink:href="#c"/>
+<use x="690" y="90" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+<use x="690" y="150" stroke="#1c538e" xlink:href="#b"/>
+<use x="690" y="210" stroke="#1c538e" xlink:href="#b"/>
+<use x="690" y="270" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="690" y="330" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="690" y="390" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="690" y="450" stroke="rgba(25, 113, 194, 1)" stroke-width="3" xlink:href="#f"/>
+<use x="690" y="510" stroke="rgba(64, 192, 87, 1)" xlink:href="#a"/>
+<use x="690" y="570" stroke="rgba(64, 192, 87, 1)" xlink:href="#b"/>
+<use x="690" y="630" stroke="rgba(64, 192, 87, 1)" xlink:href="#e"/>
+<use x="690" y="690" stroke="rgba(25, 113, 194, 1)" xlink:href="#a"/>
+</symbol>
+</svg>

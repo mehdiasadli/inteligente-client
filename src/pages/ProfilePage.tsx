@@ -99,7 +99,7 @@ export default function ProfilePage() {
           </Stack>
         </Flex>
       </Card>
-      {quizzes?.length && (
+      {quizzes?.length ? (
         <Card>
           <SimpleGrid cols={2} breakpoints={[{ cols: 1, maxWidth: 'sm' }]}>
             {quizzes.map((q) => (
@@ -165,7 +165,7 @@ export default function ProfilePage() {
             ))}
           </SimpleGrid>
         </Card>
-      )}
+      ) : null}
 
       <Modal opened={opened} onClose={close}>
         <EditUserModal user={user} />
@@ -215,7 +215,8 @@ export default function ProfilePage() {
                         <Badge color='red'>---</Badge>
                       ) : (
                         <Badge color={answer.isCorrect ? 'green' : 'red'}>
-                          {answer.answer}: {answer?.time?.toFixed(1)} sanİyə
+                          {answer.answer ? answer.answer : '--- '}: {answer?.time?.toFixed(1)}{' '}
+                          sanİyə
                         </Badge>
                       )}
                     </Flex>

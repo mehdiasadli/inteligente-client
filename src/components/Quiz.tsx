@@ -17,7 +17,7 @@ import { useTimer } from '../hooks/useTimer';
 import { QUIZ_MODE } from '../lib/types';
 import { useEndQuiz } from '../services/quiz/quiz.hooks';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { answer } from '../store/slices/quiz.slice';
+import { answer, end } from '../store/slices/quiz.slice';
 
 const schema = z.object({
   answer: z.string(),
@@ -32,7 +32,7 @@ export default function Quiz() {
   });
   const [seconds, { interval, reset }] = useTimer();
 
-  const { mutate, isLoading } = useEndQuiz();
+  const { mutate } = useEndQuiz();
   const { id, questions, field, subfield, mode, round, answers } = useAppSelector(
     (state) => state.quiz
   );
@@ -42,32 +42,38 @@ export default function Quiz() {
     interval.start();
   }, [interval]);
 
-  function onEnd() {
-    const points = answers.reduce((acc, ans) => {
-      acc += ans.point;
-      return acc;
-    }, 0);
-
-    if (id) {
-      mutate({
-        id,
-        data: { points, answers: answers.map((ans) => ({ ...ans, question: ans.question?._id })) },
-      });
-    }
-
-    reset();
-    interval.stop();
-  }
-
   function onSuccess(values: any) {
     dispatch(answer({ answer: values.answer, time: seconds }));
     form.reset();
     reset();
+  }
 
-    if (round >= questions.length) {
+  useEffect(() => {
+    function onEnd() {
+      const points = answers.reduce((acc, ans) => {
+        acc += ans.point;
+        return acc;
+      }, 0);
+
+      if (id) {
+        mutate({
+          id,
+          data: {
+            points,
+            answers: answers.map((ans) => ({ ...ans, question: ans.question?._id })),
+          },
+        });
+        dispatch(end());
+      }
+
+      reset();
+      interval.stop();
+    }
+
+    if (round >= questions.length + 1) {
       onEnd();
     }
-  }
+  }, [answers, dispatch, id, interval, mutate, questions.length, reset, round]);
 
   const question = useMemo(() => {
     return questions[round - 1];
@@ -92,10 +98,12 @@ export default function Quiz() {
           </Badge>
         </Group>
         <Stack>
-          <Title>{question.title}</Title>
-          {question.description && (
+          <Title>
+            {round}. {question?.title}
+          </Title>
+          {question?.description && (
             <Text mt={-10} fz={12} color='dimmed'>
-              {question.description}
+              {question?.description}
             </Text>
           )}
         </Stack>
@@ -136,9 +144,9 @@ export default function Quiz() {
           </Stack>
         </form>
 
-        <Button mt={20} mx={'auto'} w='12rem' onClick={onEnd} loading={isLoading} color='red'>
+        {/* <Button mt={20} mx={'auto'} w='12rem' onClick={onEnd} loading={isLoading} color='red'>
           Oyunu Bitir
-        </Button>
+        </Button> */}
       </Stack>
     </Container>
   );

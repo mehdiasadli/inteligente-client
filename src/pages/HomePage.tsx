@@ -10,7 +10,7 @@ export default function HomePage() {
         <Title mb={15} ta='center'>
           Ümumi Nəticələr
         </Title>
-        {average?.length && (
+        {average?.length ? (
           <Table verticalSpacing={'sm'} striped>
             <thead>
               <tr>
@@ -31,7 +31,7 @@ export default function HomePage() {
               ))}
             </tbody>
           </Table>
-        )}
+        ) : null}
       </Card>
     </Group>
   );

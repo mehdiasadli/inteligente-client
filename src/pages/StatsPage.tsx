@@ -14,6 +14,7 @@ import {
 import { useForm, zodResolver } from '@mantine/form';
 import dayjs from 'dayjs';
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { z } from 'zod';
 import { QUIZ_MODE } from '../lib/types';
 import { useFields } from '../services/field/field.hooks';
@@ -27,6 +28,7 @@ const schema = z.object({
 });
 
 export default function StatsPage() {
+  const navigate = useNavigate();
   const form = useForm({
     initialValues: {
       field: '',
@@ -60,7 +62,7 @@ export default function StatsPage() {
 
   return (
     <Container>
-      <Stack>
+      <Stack mb={50}>
         <Select
           label='Kateqoriya'
           placeholder='Kateqoriyanı seçin'
@@ -125,7 +127,12 @@ export default function StatsPage() {
                       <Title order={3}>
                         {index + 1}. {item.user.firstName} {item.user.lastName}
                       </Title>
-                      <Text color='dimmed' fz={12}>
+                      <Text
+                        color='dimmed'
+                        fz={12}
+                        sx={{ cursor: 'pointer' }}
+                        onClick={() => navigate('/user/' + item.user._id)}
+                      >
                         @{item.user.username}
                       </Text>
                     </Stack>

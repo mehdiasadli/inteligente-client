@@ -66,17 +66,7 @@ export const quizSlice = createSlice({
         point: isCorrect ? point : -penalty,
       });
 
-      if (state.round < state.questions.length) {
-        state.round++;
-      } else {
-        state.field = null;
-        state.subfield = null;
-        state.mode = null;
-        state.active = false;
-        state.questions = [];
-        state.answers = [];
-        state.round = 1;
-      }
+      state.round++;
     },
     end: (state) => {
       state.id = null;

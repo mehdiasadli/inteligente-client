@@ -24,4 +24,13 @@ export default {
   deleteQuiz: async ({ id }: { id: string }) => await api.delete<{ message: string }>('/' + id),
   getAverage: async () =>
     await api.get<{ username: string; average: number; total: number }[]>('/average'),
+  getUserQuizes: async ({ id }: { id: string }) =>
+    await api.get<
+      (Quiz & {
+        field: { _id: string; name: string };
+        subfield: { _id: string; name: string };
+        user: string;
+        questions: string[];
+      })[]
+    >('/user/' + id),
 };

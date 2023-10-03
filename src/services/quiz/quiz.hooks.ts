@@ -82,3 +82,11 @@ export const useAverage = () => {
 
   return { response: data, data: data?.data, ...rest };
 };
+
+export const useUserQuizzes = (id: string) => {
+  const { data, ...rest } = useQuery(['user-quizzes'], () => services.getUserQuizes({ id }), {
+    enabled: false,
+  });
+
+  return { response: data, data: data?.data, ...rest };
+};

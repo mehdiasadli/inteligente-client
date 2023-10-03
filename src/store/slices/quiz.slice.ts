@@ -53,15 +53,10 @@ export const quizSlice = createSlice({
       }
 
       const diff = currentQuestion.difficulty;
-
       const readTime = getReadTime(currentQuestion.title);
 
       const point = diff * 0.8 + Math.max(0, 10 - time + readTime) * 0.2;
       const penalty = 10 / diff + Math.min(10, time - readTime) * 0.1;
-
-      // easy max: 26 22 18 14 =  80
-      // med. max: 38 34 30 26 = 128
-      // hard max: 50 46 42 38 = 176
 
       state.answers.push({
         answer,

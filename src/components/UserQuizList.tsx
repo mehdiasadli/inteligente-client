@@ -50,7 +50,7 @@ export default function UserQuizList({ quizes }: { quizes: Quiz[] }) {
                   <Title>
                     <CountUp end={quiz.points} />
                   </Title>
-                  <Text>{quiz.points === 1} Xal</Text>
+                  <Text>Xal</Text>
                 </Group>
               )}
               <Text color='dimmed' fs='italic'>
@@ -66,7 +66,7 @@ export default function UserQuizList({ quizes }: { quizes: Quiz[] }) {
                     return acc;
                   }, 0)
                   .toFixed(1)}{' '}
-                saniyə
+                sanİyə
               </Badge>
             </Group>
           </Stack>

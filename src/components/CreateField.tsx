@@ -31,11 +31,13 @@ export default function CreateField() {
         <TextInput
           label='Ad'
           placeholder='Kateqoriyanın adını daxil edin'
+          description='Kateqoriya müxtəlif mövzuları özündə cəmləşdirən, daha böyük bir qrupdur. Məsələn, "Dünya Tarixi", "Azərbaycan Tarixi", "Yeni Tarix" və s. kimi mövzuları Tarix kateqoriyasında toplamaq olar. Bu səbəbdən, mövzunu yaratmazdan əvvəl kateqoriya yaratmaq şərtdir.'
           {...form.getInputProps('name')}
         />
         <Textarea
           label='Qeyd'
           placeholder='Kateqoriyanın qeydini (Əgər varsa) daxil edin'
+          description='Bu qeyd, oyunçular oynamaq üçün bu kateqoriyanı seçəndə onlara göstəriləcək.'
           autosize
           {...form.getInputProps('description')}
           maxRows={10}

@@ -35,11 +35,13 @@ export default function CreateSubfield() {
         <TextInput
           label='Ad'
           placeholder='Mövzunun adını daxil edin'
+          description='Mövzu sualları özündə cəmləşdirən bir qrupdur. Məsələn, Fiziki Coğrafiya mövzusunda suallar yaratmaq olar. Sualları yaratmazdan öncə Mövzu (ondan da öncə Kateqoriya) yaratmaq şərtdir.'
           {...form.getInputProps('name')}
         />
         <Textarea
           label='Qeyd'
           placeholder='Mövzunun qeydini (Əgər varsa) daxil edin'
+          description='Bu qeyd, oyunçular oynamaq üçün bu mövzunu seçəndə onlara göstəriləcək.'
           autosize
           {...form.getInputProps('description')}
           maxRows={10}

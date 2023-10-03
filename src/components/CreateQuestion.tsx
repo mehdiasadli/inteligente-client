@@ -76,6 +76,7 @@ export default function CreateQuestion() {
         <Textarea
           label='Qeyd'
           placeholder='Sualın qeydini daxil edin'
+          description='Oyunçulara bu sual barəsində, sualdan əlavə qeydlərini varsa buraya daxil edə bilərsiniz'
           autosize
           {...form.getInputProps('description')}
           maxRows={10}
@@ -105,6 +106,7 @@ export default function CreateQuestion() {
         <NumberInput
           label='Çətinlik'
           placeholder='Sualın çətinliyini daxil edin'
+          description='Bütün oyunlar, xal sistemi sualların çətinliyi üzərindən aparılır. Suallar 1-lə (ən asan), 10 (ən çətin) arası çətinlikdə dəyişir. Mövzunun oynana bilməsi üçün hər çətinlikdə sualdan minimum 5 ədəd olmalıdır.'
           min={1}
           max={10}
           {...form.getInputProps('difficulty')}
@@ -112,7 +114,7 @@ export default function CreateQuestion() {
         <TextInput
           label='Düzgün cavab(lar)'
           placeholder='Düzgün cavab(lar)ı daxil edin'
-          description='Əgər sualın birdən çox doğru sayıla biləcək cavabı varsa, o cavabları vergüllərlə ayıraraq yazın. Məsələn: rusiya,rusya,rusia və s.'
+          description='Əgər sualın birdən çox doğru sayıla biləcək cavabı varsa, o cavabları vergüllərlə ayıraraq yazın. Məsələn: rusiya,rusya,rusia və s. Nəzərə alın, boşluqlar cavabda nəzərə alınmır, yəni "Porto Novo" ilə "PortoNovo" eyni cavab sayılır. Böyük-kiçik hərflər cavabda nəzərə alınmır, yəni "McGregor" cavabı ilə "mcgREGor" cavabı eyni cavab sayılır'
           {...form.getInputProps('answers')}
         />
         <Button
